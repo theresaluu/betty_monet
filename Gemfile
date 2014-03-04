@@ -34,6 +34,10 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+  gem 'cucumber-rails', :require => false
 end
 
 gem 'foundation-rails'
